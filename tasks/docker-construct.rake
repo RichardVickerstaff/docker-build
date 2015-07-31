@@ -1,4 +1,4 @@
-namespace :"docker-build" do
+namespace :"docker" do
 
   def image_name file
     file.sub('Dockerfile.','')
@@ -22,7 +22,7 @@ namespace :"docker-build" do
     end
   end
 
-  files = Dir["Docker*"]
+  files = Dir["Dockerfile*"]
   task :build => files.map { |file| "docker:build:#{image_name file}"}
   task :push => files.map { |file| "docker:push:#{image_name file}"}
 

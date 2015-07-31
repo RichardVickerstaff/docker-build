@@ -1,5 +1,5 @@
-DockerBuild
-===========
+DockerConstruct
+===============
 
 Rake tasks to build docker images
 ---------------------------------
@@ -8,15 +8,15 @@ Rake tasks to build docker images
 Installation
 ------------
 Either:
-  - Add `gem "docker-build"` to your Gemfile and run bundle install.
+  - Add `gem "docker-construct"` to your Gemfile and run bundle install.
 
 or
 
-  - Run `gem install docker-build`
+  - Run `gem install docker-construct`
 
 Usage
 -----
-  1. Add `require "docker-build"` to your Rakefile
+  1. Add `require "docker-construct"` to your Rakefile
   2. Call the tasks that you want, just as with your usual Rake tasks (examples below!).
 
 

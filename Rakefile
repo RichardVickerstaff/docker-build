@@ -1,6 +1,6 @@
 require 'rake/clean'
 require 'rake-n-bake'
-require './lib/docker-build'
+require './lib/docker-construct'
 
 @external_dependencies = %w[ruby rake]
 
