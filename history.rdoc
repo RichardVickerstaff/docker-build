@@ -1,3 +1,5 @@
+== v0.0.2 (25 September 2015)
+
 == v0.0.1 (31 July 2015)
 
 * Create project
